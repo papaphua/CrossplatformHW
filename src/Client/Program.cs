@@ -27,7 +27,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddHttpClientInterceptor();
 
-builder.Services.AddHttpClient("BlazorShop.ServerAPI",
+builder.Services.AddHttpClient("CrossplatformHW.ServerAPI",
     (sp, client) =>
     {
         client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress);
@@ -35,7 +35,7 @@ builder.Services.AddHttpClient("BlazorShop.ServerAPI",
     });
 
 // Supply HttpClient instances that include access tokens when making requests to the server project
-builder.Services.AddScoped(sp => sp.GetRequiredService<IHttpClientFactory>().CreateClient("BlazorShop.ServerAPI"));
+builder.Services.AddScoped(sp => sp.GetRequiredService<IHttpClientFactory>().CreateClient("CrossplatformHW.ServerAPI"));
 
 builder.Services
     .AddBlazorise(options => { options.Immediate = true; })

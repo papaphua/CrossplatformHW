@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "BlazorShop API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CrossplatformHW API", Version = "v1" });
 });
 
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -55,7 +55,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseSwagger();
-app.UseSwaggerUI(options => { options.SwaggerEndpoint("/swagger/v1/swagger.json", "BlazorShop API V1"); });
+app.UseSwaggerUI(options => { options.SwaggerEndpoint("/swagger/v1/swagger.json", "CrossplatformHW API V1"); });
 
 app.UseAuthentication();
 app.UseAuthorization();
