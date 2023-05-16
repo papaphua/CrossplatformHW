@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Client.Models.Pagination;
+﻿namespace CrossplatformHW.Client.Models.Pagination;
 
 public sealed class PagingLink
 {

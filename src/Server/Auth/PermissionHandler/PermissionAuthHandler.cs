@@ -1,7 +1,7 @@
-﻿using BlazorShop.Shared.Auth;
+﻿using CrossplatformHW.Shared.Auth;
 using Microsoft.AspNetCore.Authorization;
 
-namespace BlazorShop.Server.Auth.PermissionHandler;
+namespace CrossplatformHW.Server.Auth.PermissionHandler;
 
 public sealed class PermissionAuthHandler : AuthorizationHandler<PermissionRequirement>
 {

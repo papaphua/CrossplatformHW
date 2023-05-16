@@ -1,11 +1,11 @@
-﻿using BlazorShop.Client.Services.CartService;
-using BlazorShop.Client.Services.HttpInterceptorService;
-using BlazorShop.Client.Services.PaymentService;
-using BlazorShop.Shared.Models;
+﻿using CrossplatformHW.Client.Services.CartService;
+using CrossplatformHW.Client.Services.HttpInterceptorService;
+using CrossplatformHW.Client.Services.PaymentService;
+using CrossplatformHW.Shared.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorShop.Client.Pages;
+namespace CrossplatformHW.Client.Pages;
 
 [AllowAnonymous]
 public sealed partial class Cart : IDisposable

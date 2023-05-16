@@ -1,12 +1,12 @@
 ﻿using System.Net.Http.Json;
 using System.Text.Json;
-using BlazorShop.Client.Models.Pagination;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Pagination;
-using BlazorShop.Shared.Pagination.Parameters;
+using CrossplatformHW.Client.Models.Pagination;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Pagination;
+using CrossplatformHW.Shared.Pagination.Parameters;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace BlazorShop.Client.Services.ProductService;
+namespace CrossplatformHW.Client.Services.ProductService;
 
 public sealed class ProductService : IProductService
 {

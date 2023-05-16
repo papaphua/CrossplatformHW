@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Server.Common.Providers.PasswordProvider;
+﻿namespace CrossplatformHW.Server.Common.Providers.PasswordProvider;
 
 public interface IPasswordProvider
 {

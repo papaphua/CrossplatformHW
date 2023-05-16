@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BlazorShop.Shared.Dtos;
+namespace CrossplatformHW.Shared.Dtos;
 
 public sealed class CommentDto
 {

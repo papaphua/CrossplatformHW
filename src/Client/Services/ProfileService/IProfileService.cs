@@ -1,7 +1,7 @@
-﻿using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Models;
+﻿using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Models;
 
-namespace BlazorShop.Client.Services.ProfileService;
+namespace CrossplatformHW.Client.Services.ProfileService;
 
 public interface IProfileService
 {

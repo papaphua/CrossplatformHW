@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BlazorShop.Server.Data.Entities;
-using BlazorShop.Shared.Dtos;
+using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Shared.Dtos;
 
-namespace BlazorShop.Server.Data;
+namespace CrossplatformHW.Server.Data;
 
 public sealed class MappingProfile : Profile
 {

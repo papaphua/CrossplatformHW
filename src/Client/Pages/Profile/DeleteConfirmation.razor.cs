@@ -1,13 +1,13 @@
 ﻿using System.Net.Http.Headers;
-using BlazorShop.Client.Auth;
-using BlazorShop.Client.Services.ProfileService;
-using BlazorShop.Shared.Models;
+using CrossplatformHW.Client.Auth;
+using CrossplatformHW.Client.Services.ProfileService;
+using CrossplatformHW.Shared.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Primitives;
 
-namespace BlazorShop.Client.Pages.Profile;
+namespace CrossplatformHW.Client.Pages.Profile;
 
 [AllowAnonymous]
 public sealed partial class DeleteConfirmation

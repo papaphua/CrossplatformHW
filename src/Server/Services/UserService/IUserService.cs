@@ -1,7 +1,7 @@
-﻿using BlazorShop.Server.Data.Entities;
-using BlazorShop.Shared.Pagination.Parameters;
+﻿using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Shared.Pagination.Parameters;
 
-namespace BlazorShop.Server.Services.UserService;
+namespace CrossplatformHW.Server.Services.UserService;
 
 public interface IUserService
 {

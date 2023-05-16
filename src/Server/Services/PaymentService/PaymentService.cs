@@ -1,18 +1,18 @@
 ﻿using System.Net;
-using BlazorShop.Server.Common;
-using BlazorShop.Server.Common.Exceptions;
-using BlazorShop.Server.Common.Options;
-using BlazorShop.Server.Data;
-using BlazorShop.Server.Data.Entities;
-using BlazorShop.Server.Services.UserService;
-using BlazorShop.Shared.Auth;
-using BlazorShop.Shared.Models;
+using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Common.Exceptions;
+using CrossplatformHW.Server.Common.Options;
+using CrossplatformHW.Server.Data;
+using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Server.Services.UserService;
+using CrossplatformHW.Shared.Auth;
+using CrossplatformHW.Shared.Models;
 using Microsoft.Extensions.Options;
 using Stripe;
 using Stripe.Checkout;
 using Session = Stripe.Checkout.Session;
 
-namespace BlazorShop.Server.Services.PaymentService;
+namespace CrossplatformHW.Server.Services.PaymentService;
 
 public sealed class PaymentService : IPaymentService
 {

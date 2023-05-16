@@ -1,8 +1,8 @@
-﻿using BlazorShop.Server.Primitives;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Pagination.Parameters;
+﻿using CrossplatformHW.Server.Primitives;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Pagination.Parameters;
 
-namespace BlazorShop.Server.Facades.CommentFacade;
+namespace CrossplatformHW.Server.Facades.CommentFacade;
 
 public interface ICommentFacade
 {

@@ -1,6 +1,6 @@
-﻿using BlazorShop.Shared.Models;
+﻿using CrossplatformHW.Shared.Models;
 
-namespace BlazorShop.Server.Common.Providers.LinkProvider;
+namespace CrossplatformHW.Server.Common.Providers.LinkProvider;
 
 public interface ILinkProvider
 {

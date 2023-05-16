@@ -1,7 +1,7 @@
-﻿using BlazorShop.Server.Data;
+﻿using CrossplatformHW.Server.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorShop.Server.Services.PermissionService;
+namespace CrossplatformHW.Server.Services.PermissionService;
 
 public sealed class PermissionService : IPermissionService
 {

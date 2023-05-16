@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Server.Common.Exceptions;
+﻿namespace CrossplatformHW.Server.Common.Exceptions;
 
 public class BusinessException : Exception
 {

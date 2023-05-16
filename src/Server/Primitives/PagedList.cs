@@ -1,6 +1,6 @@
-﻿using BlazorShop.Shared.Pagination;
+﻿using CrossplatformHW.Shared.Pagination;
 
-namespace BlazorShop.Server.Primitives;
+namespace CrossplatformHW.Server.Primitives;
 
 public sealed class PagedList<T> : List<T>
 {

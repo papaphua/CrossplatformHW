@@ -1,6 +1,6 @@
-﻿using BlazorShop.Server.Data.Entities;
+﻿using CrossplatformHW.Server.Data.Entities;
 
-namespace BlazorShop.Server.Services.CategoryService;
+namespace CrossplatformHW.Server.Services.CategoryService;
 
 public interface ICategoryService
 {

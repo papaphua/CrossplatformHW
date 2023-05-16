@@ -1,14 +1,14 @@
-﻿using BlazorShop.Server.Common;
-using BlazorShop.Server.Common.Exceptions;
-using BlazorShop.Server.Common.Options;
-using BlazorShop.Server.Common.Providers.TokenProvider;
-using BlazorShop.Server.Data;
-using BlazorShop.Server.Data.Entities;
-using BlazorShop.Server.Services.UserService;
+﻿using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Common.Exceptions;
+using CrossplatformHW.Server.Common.Options;
+using CrossplatformHW.Server.Common.Providers.TokenProvider;
+using CrossplatformHW.Server.Data;
+using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Server.Services.UserService;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace BlazorShop.Server.Services.SecurityService;
+namespace CrossplatformHW.Server.Services.SecurityService;
 
 public sealed class SecurityService : ISecurityService
 {

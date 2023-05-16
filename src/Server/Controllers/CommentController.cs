@@ -1,14 +1,14 @@
-﻿using BlazorShop.Server.Auth.PermissionHandler;
-using BlazorShop.Server.Common;
-using BlazorShop.Server.Common.Providers.TokenProvider;
-using BlazorShop.Server.Facades.CommentFacade;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Pagination.Parameters;
+﻿using CrossplatformHW.Server.Auth.PermissionHandler;
+using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Common.Providers.TokenProvider;
+using CrossplatformHW.Server.Facades.CommentFacade;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Pagination.Parameters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
-namespace BlazorShop.Server.Controllers;
+namespace CrossplatformHW.Server.Controllers;
 
 [Route("api/comments")]
 [ApiController]

@@ -1,6 +1,6 @@
-﻿using BlazorShop.Server.Middlewares;
+﻿using CrossplatformHW.Server.Middlewares;
 
-namespace BlazorShop.Server.Common.Extensions;
+namespace CrossplatformHW.Server.Common.Extensions;
 
 public static class ApplicationExtensions
 {

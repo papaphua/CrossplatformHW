@@ -1,9 +1,9 @@
-﻿using BlazorShop.Client.Services.CategoryService;
-using BlazorShop.Client.Services.ProfileService;
-using BlazorShop.Shared.Dtos;
+﻿using CrossplatformHW.Client.Services.CategoryService;
+using CrossplatformHW.Client.Services.ProfileService;
+using CrossplatformHW.Shared.Dtos;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorShop.Client.Shared;
+namespace CrossplatformHW.Client.Shared;
 
 public sealed partial class SideMenu
 {

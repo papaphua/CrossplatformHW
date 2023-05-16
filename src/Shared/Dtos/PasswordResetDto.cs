@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using BlazorShop.Shared.Models;
+using CrossplatformHW.Shared.Models;
 
-namespace BlazorShop.Shared.Dtos;
+namespace CrossplatformHW.Shared.Dtos;
 
 public sealed class PasswordResetDto
 {

@@ -1,10 +1,10 @@
 ﻿using System.Net.Http.Headers;
 using System.Security.Claims;
 using Blazored.LocalStorage;
-using BlazorShop.Client.Auth.JwtProvider;
+using CrossplatformHW.Client.Auth.JwtProvider;
 using Microsoft.AspNetCore.Components.Authorization;
 
-namespace BlazorShop.Client.Auth.StateProvider;
+namespace CrossplatformHW.Client.Auth.StateProvider;
 
 public sealed class CustomAuthStateProvider : AuthenticationStateProvider
 {

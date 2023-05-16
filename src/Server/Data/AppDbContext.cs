@@ -1,9 +1,9 @@
-﻿using BlazorShop.Server.Common;
-using BlazorShop.Server.Data.Entities;
-using BlazorShop.Server.Data.Entities.Joints;
+﻿using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Server.Data.Entities.Joints;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorShop.Server.Data;
+namespace CrossplatformHW.Server.Data;
 
 public sealed class AppDbContext : DbContext
 {

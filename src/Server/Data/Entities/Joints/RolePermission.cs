@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BlazorShop.Server.Data.Entities.Joints;
+namespace CrossplatformHW.Server.Data.Entities.Joints;
 
 public sealed class RolePermission
 {

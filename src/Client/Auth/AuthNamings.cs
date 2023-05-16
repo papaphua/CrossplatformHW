@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Client.Auth;
+﻿namespace CrossplatformHW.Client.Auth;
 
 public static class AuthNamings
 {

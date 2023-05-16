@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BlazorShop.Server.Data.Entities;
+namespace CrossplatformHW.Server.Data.Entities;
 
 public sealed class Permission
 {

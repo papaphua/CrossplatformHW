@@ -1,6 +1,6 @@
-﻿using BlazorShop.Server.Data.Entities;
+﻿using CrossplatformHW.Server.Data.Entities;
 
-namespace BlazorShop.Server.Services.SessionService;
+namespace CrossplatformHW.Server.Services.SessionService;
 
 public interface ISessionService
 {

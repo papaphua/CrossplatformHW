@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace BlazorShop.Client.Auth.PermissionHandler;
+namespace CrossplatformHW.Client.Auth.PermissionHandler;
 
 public sealed class PermissionRequirement : IAuthorizationRequirement
 {

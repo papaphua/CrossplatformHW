@@ -1,12 +1,12 @@
-﻿using BlazorShop.Server.Common;
-using BlazorShop.Server.Common.Exceptions;
-using BlazorShop.Server.Common.Extensions;
-using BlazorShop.Server.Data;
-using BlazorShop.Server.Data.Entities;
-using BlazorShop.Shared.Pagination.Parameters;
+﻿using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Common.Exceptions;
+using CrossplatformHW.Server.Common.Extensions;
+using CrossplatformHW.Server.Data;
+using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Shared.Pagination.Parameters;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorShop.Server.Services.UserService;
+namespace CrossplatformHW.Server.Services.UserService;
 
 public sealed class UserService : IUserService
 {

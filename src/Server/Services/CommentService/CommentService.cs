@@ -1,8 +1,8 @@
-﻿using BlazorShop.Server.Data;
-using BlazorShop.Server.Data.Entities;
+﻿using CrossplatformHW.Server.Data;
+using CrossplatformHW.Server.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorShop.Server.Services.CommentService;
+namespace CrossplatformHW.Server.Services.CommentService;
 
 public sealed class CommentService : ICommentService
 {

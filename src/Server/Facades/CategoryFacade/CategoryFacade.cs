@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BlazorShop.Server.Services.CategoryService;
-using BlazorShop.Shared.Dtos;
+using CrossplatformHW.Server.Services.CategoryService;
+using CrossplatformHW.Shared.Dtos;
 
-namespace BlazorShop.Server.Facades.CategoryFacade;
+namespace CrossplatformHW.Server.Facades.CategoryFacade;
 
 public sealed class CategoryFacade : ICategoryFacade
 {

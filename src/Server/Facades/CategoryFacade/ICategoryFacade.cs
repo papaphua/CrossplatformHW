@@ -1,6 +1,6 @@
-﻿using BlazorShop.Shared.Dtos;
+﻿using CrossplatformHW.Shared.Dtos;
 
-namespace BlazorShop.Server.Facades.CategoryFacade;
+namespace CrossplatformHW.Server.Facades.CategoryFacade;
 
 public interface ICategoryFacade
 {

@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Server.Services.MailService;
+﻿namespace CrossplatformHW.Server.Services.MailService;
 
 public interface IMailService
 {

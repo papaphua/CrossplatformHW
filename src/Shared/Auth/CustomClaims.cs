@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Shared.Auth;
+﻿namespace CrossplatformHW.Shared.Auth;
 
 public static class CustomClaims
 {

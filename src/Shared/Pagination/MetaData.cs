@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Shared.Pagination;
+﻿namespace CrossplatformHW.Shared.Pagination;
 
 public sealed class MetaData
 {

@@ -1,28 +1,27 @@
-﻿using BlazorShop.Server.Auth.PermissionHandler;
-using BlazorShop.Server.Common.Options.Setups;
-using BlazorShop.Server.Common.Providers.LinkProvider;
-using BlazorShop.Server.Common.Providers.PasswordProvider;
-using BlazorShop.Server.Common.Providers.TokenProvider;
-using BlazorShop.Server.Facades.AuthFacade;
-using BlazorShop.Server.Facades.CategoryFacade;
-using BlazorShop.Server.Facades.CommentFacade;
-using BlazorShop.Server.Facades.ProductFacade;
-using BlazorShop.Server.Facades.ProfileFacade;
-using BlazorShop.Server.Facades.UserFacade;
-using BlazorShop.Server.Middlewares;
-using BlazorShop.Server.Services.CategoryService;
-using BlazorShop.Server.Services.CommentService;
-using BlazorShop.Server.Services.MailService;
-using BlazorShop.Server.Services.PaymentService;
-using BlazorShop.Server.Services.PermissionService;
-using BlazorShop.Server.Services.ProductService;
-using BlazorShop.Server.Services.SecurityService;
-using BlazorShop.Server.Services.SessionService;
-using BlazorShop.Server.Services.UserService;
+﻿using CrossplatformHW.Server.Auth.PermissionHandler;
+using CrossplatformHW.Server.Common.Options.Setups;
+using CrossplatformHW.Server.Common.Providers.LinkProvider;
+using CrossplatformHW.Server.Common.Providers.PasswordProvider;
+using CrossplatformHW.Server.Common.Providers.TokenProvider;
+using CrossplatformHW.Server.Facades.AuthFacade;
+using CrossplatformHW.Server.Facades.CategoryFacade;
+using CrossplatformHW.Server.Facades.CommentFacade;
+using CrossplatformHW.Server.Facades.ProductFacade;
+using CrossplatformHW.Server.Facades.ProfileFacade;
+using CrossplatformHW.Server.Facades.UserFacade;
+using CrossplatformHW.Server.Services.CategoryService;
+using CrossplatformHW.Server.Services.CommentService;
+using CrossplatformHW.Server.Services.MailService;
+using CrossplatformHW.Server.Services.PaymentService;
+using CrossplatformHW.Server.Services.PermissionService;
+using CrossplatformHW.Server.Services.ProductService;
+using CrossplatformHW.Server.Services.SecurityService;
+using CrossplatformHW.Server.Services.SessionService;
+using CrossplatformHW.Server.Services.UserService;
 using DotNetEnv;
 using Microsoft.AspNetCore.Authorization;
 
-namespace BlazorShop.Server.Common.Extensions;
+namespace CrossplatformHW.Server.Common.Extensions;
 
 public static class ServiceExtensions
 {

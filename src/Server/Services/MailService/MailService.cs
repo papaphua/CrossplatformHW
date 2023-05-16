@@ -1,9 +1,9 @@
-﻿using BlazorShop.Server.Common.Options;
+﻿using CrossplatformHW.Server.Common.Options;
 using Microsoft.Extensions.Options;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
-namespace BlazorShop.Server.Services.MailService;
+namespace CrossplatformHW.Server.Services.MailService;
 
 public sealed class MailService : IMailService
 {

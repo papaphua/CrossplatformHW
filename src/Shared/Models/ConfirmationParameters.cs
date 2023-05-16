@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BlazorShop.Shared.Models;
+namespace CrossplatformHW.Shared.Models;
 
 public class ConfirmationParameters
 {

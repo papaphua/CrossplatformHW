@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Shared.Pagination.Parameters;
+﻿namespace CrossplatformHW.Shared.Pagination.Parameters;
 
 public class BaseParameters
 {

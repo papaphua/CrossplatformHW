@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BlazorShop.Server.Data.Entities;
+namespace CrossplatformHW.Server.Data.Entities;
 
 public sealed class Product
 {

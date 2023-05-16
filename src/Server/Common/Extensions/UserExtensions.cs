@@ -1,6 +1,6 @@
-﻿using BlazorShop.Server.Data.Entities;
+﻿using CrossplatformHW.Server.Data.Entities;
 
-namespace BlazorShop.Server.Common.Extensions;
+namespace CrossplatformHW.Server.Common.Extensions;
 
 public static class UserExtensions
 {

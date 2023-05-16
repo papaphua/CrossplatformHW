@@ -1,6 +1,6 @@
-﻿using BlazorShop.Shared.Pagination;
+﻿using CrossplatformHW.Shared.Pagination;
 
-namespace BlazorShop.Client.Models.Pagination;
+namespace CrossplatformHW.Client.Models.Pagination;
 
 public sealed class PagingResponse<T> where T : class
 {

@@ -1,5 +1,5 @@
-using BlazorShop.Server.Common.Extensions;
-using BlazorShop.Server.Data;
+using CrossplatformHW.Server.Common.Extensions;
+using CrossplatformHW.Server.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;

@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Server.Services.PermissionService;
+﻿namespace CrossplatformHW.Server.Services.PermissionService;
 
 public interface IPermissionService
 {

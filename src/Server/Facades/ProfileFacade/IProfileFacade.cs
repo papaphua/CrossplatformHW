@@ -1,7 +1,7 @@
-﻿using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Models;
+﻿using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Models;
 
-namespace BlazorShop.Server.Facades.ProfileFacade;
+namespace CrossplatformHW.Server.Facades.ProfileFacade;
 
 public interface IProfileFacade
 {

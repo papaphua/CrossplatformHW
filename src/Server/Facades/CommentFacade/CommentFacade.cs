@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
-using BlazorShop.Server.Common;
-using BlazorShop.Server.Common.Exceptions;
-using BlazorShop.Server.Data;
-using BlazorShop.Server.Data.Entities;
-using BlazorShop.Server.Primitives;
-using BlazorShop.Server.Services.CommentService;
-using BlazorShop.Server.Services.ProductService;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Pagination.Parameters;
+using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Common.Exceptions;
+using CrossplatformHW.Server.Data;
+using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Server.Primitives;
+using CrossplatformHW.Server.Services.CommentService;
+using CrossplatformHW.Server.Services.ProductService;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Pagination.Parameters;
 
-namespace BlazorShop.Server.Facades.CommentFacade;
+namespace CrossplatformHW.Server.Facades.CommentFacade;
 
 public sealed class CommentFacade : ICommentFacade
 {

@@ -1,8 +1,8 @@
-﻿using BlazorShop.Client.Auth.StateProvider;
+﻿using CrossplatformHW.Client.Auth.StateProvider;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 
-namespace BlazorShop.Client;
+namespace CrossplatformHW.Client;
 
 public partial class App
 {

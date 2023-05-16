@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BlazorShop.Shared.Dtos;
+namespace CrossplatformHW.Shared.Dtos;
 
 public sealed class ProductDto
 {

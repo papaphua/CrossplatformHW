@@ -1,12 +1,12 @@
 ﻿using Blazorise;
-using BlazorShop.Client.Services.AuthService;
-using BlazorShop.Client.Services.HttpInterceptorService;
-using BlazorShop.Shared.Dtos;
+using CrossplatformHW.Client.Services.AuthService;
+using CrossplatformHW.Client.Services.HttpInterceptorService;
+using CrossplatformHW.Shared.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace BlazorShop.Client.Pages.Accounts;
+namespace CrossplatformHW.Client.Pages.Accounts;
 
 [AllowAnonymous]
 public sealed partial class TwoAuthLogin : IDisposable

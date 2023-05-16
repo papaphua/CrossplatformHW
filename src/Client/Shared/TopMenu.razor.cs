@@ -1,7 +1,7 @@
-﻿using BlazorShop.Client.Services.AuthService;
+﻿using CrossplatformHW.Client.Services.AuthService;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorShop.Client.Shared;
+namespace CrossplatformHW.Client.Shared;
 
 public partial class TopMenu
 {

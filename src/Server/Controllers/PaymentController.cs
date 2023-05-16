@@ -1,11 +1,11 @@
-﻿using BlazorShop.Server.Auth.PermissionHandler;
-using BlazorShop.Server.Common;
-using BlazorShop.Server.Services.PaymentService;
-using BlazorShop.Shared.Models;
+﻿using CrossplatformHW.Server.Auth.PermissionHandler;
+using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Services.PaymentService;
+using CrossplatformHW.Shared.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorShop.Server.Controllers;
+namespace CrossplatformHW.Server.Controllers;
 
 [Route("api/payments")]
 [ApiController]

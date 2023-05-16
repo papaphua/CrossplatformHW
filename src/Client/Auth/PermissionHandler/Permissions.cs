@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Client.Auth.PermissionHandler;
+﻿namespace CrossplatformHW.Client.Auth.PermissionHandler;
 
 public enum Permissions
 {

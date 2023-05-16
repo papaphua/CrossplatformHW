@@ -1,15 +1,15 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using BlazorShop.Server.Common.Exceptions;
-using BlazorShop.Server.Common.Options;
-using BlazorShop.Server.Data.Entities;
-using BlazorShop.Server.Services.PermissionService;
-using BlazorShop.Shared.Auth;
+using CrossplatformHW.Server.Common.Exceptions;
+using CrossplatformHW.Server.Common.Options;
+using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Server.Services.PermissionService;
+using CrossplatformHW.Shared.Auth;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace BlazorShop.Server.Common.Providers.TokenProvider;
+namespace CrossplatformHW.Server.Common.Providers.TokenProvider;
 
 public sealed class TokenProvider : ITokenProvider
 {

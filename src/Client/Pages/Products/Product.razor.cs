@@ -1,15 +1,15 @@
-﻿using BlazorShop.Client.Services.CartService;
-using BlazorShop.Client.Services.CommentService;
-using BlazorShop.Client.Services.HttpInterceptorService;
-using BlazorShop.Client.Services.ProductService;
-using BlazorShop.Client.Services.ProfileService;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Pagination;
-using BlazorShop.Shared.Pagination.Parameters;
+﻿using CrossplatformHW.Client.Services.CartService;
+using CrossplatformHW.Client.Services.CommentService;
+using CrossplatformHW.Client.Services.HttpInterceptorService;
+using CrossplatformHW.Client.Services.ProductService;
+using CrossplatformHW.Client.Services.ProfileService;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Pagination;
+using CrossplatformHW.Shared.Pagination.Parameters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorShop.Client.Pages.Products;
+namespace CrossplatformHW.Client.Pages.Products;
 
 [AllowAnonymous]
 public sealed partial class Product : IDisposable

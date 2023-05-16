@@ -1,7 +1,7 @@
 ﻿using System.Net.Http.Json;
-using BlazorShop.Client.Services.CartService;
+using CrossplatformHW.Client.Services.CartService;
 
-namespace BlazorShop.Client.Services.PaymentService;
+namespace CrossplatformHW.Client.Services.PaymentService;
 
 public sealed class PaymentService : IPaymentService
 {

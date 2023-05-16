@@ -1,8 +1,8 @@
-﻿using BlazorShop.Client.Models.Pagination;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Pagination.Parameters;
+﻿using CrossplatformHW.Client.Models.Pagination;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Pagination.Parameters;
 
-namespace BlazorShop.Client.Services.CommentService;
+namespace CrossplatformHW.Client.Services.CommentService;
 
 public interface ICommentService
 {

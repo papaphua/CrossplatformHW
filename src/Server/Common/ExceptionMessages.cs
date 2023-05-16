@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Server.Common;
+﻿namespace CrossplatformHW.Server.Common;
 
 public static class ExceptionMessages
 {

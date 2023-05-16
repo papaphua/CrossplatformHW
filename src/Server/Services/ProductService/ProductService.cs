@@ -1,10 +1,10 @@
-﻿using BlazorShop.Server.Common.Extensions;
-using BlazorShop.Server.Data;
-using BlazorShop.Server.Data.Entities;
-using BlazorShop.Shared.Pagination.Parameters;
+﻿using CrossplatformHW.Server.Common.Extensions;
+using CrossplatformHW.Server.Data;
+using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Shared.Pagination.Parameters;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorShop.Server.Services.ProductService;
+namespace CrossplatformHW.Server.Services.ProductService;
 
 public sealed class ProductService : IProductService
 {

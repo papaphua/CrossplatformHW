@@ -1,7 +1,7 @@
-﻿using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Models;
+﻿using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Models;
 
-namespace BlazorShop.Client.Services.AuthService;
+namespace CrossplatformHW.Client.Services.AuthService;
 
 public interface IAuthService
 {

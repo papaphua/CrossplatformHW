@@ -1,14 +1,14 @@
 ﻿using System.Net.Http.Json;
 using System.Security.Claims;
 using Blazored.LocalStorage;
-using BlazorShop.Client.Auth;
-using BlazorShop.Client.Auth.StateProvider;
-using BlazorShop.Client.Services.UserService;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Models;
+using CrossplatformHW.Client.Auth;
+using CrossplatformHW.Client.Auth.StateProvider;
+using CrossplatformHW.Client.Services.UserService;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Models;
 using Microsoft.AspNetCore.Components.Authorization;
 
-namespace BlazorShop.Client.Services.ProfileService;
+namespace CrossplatformHW.Client.Services.ProfileService;
 
 public sealed class ProfileService : IProfileService
 {

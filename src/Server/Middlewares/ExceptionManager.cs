@@ -1,8 +1,8 @@
-﻿using BlazorShop.Server.Common;
-using BlazorShop.Server.Common.Exceptions;
-using BlazorShop.Shared.Dtos;
+﻿using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Common.Exceptions;
+using CrossplatformHW.Shared.Dtos;
 
-namespace BlazorShop.Server.Middlewares;
+namespace CrossplatformHW.Server.Middlewares;
 
 public sealed class ExceptionManager
 {

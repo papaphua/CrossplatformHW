@@ -1,9 +1,9 @@
-﻿using BlazorShop.Server.Facades.CategoryFacade;
-using BlazorShop.Shared.Dtos;
+﻿using CrossplatformHW.Server.Facades.CategoryFacade;
+using CrossplatformHW.Shared.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorShop.Server.Controllers;
+namespace CrossplatformHW.Server.Controllers;
 
 [Route("api/categories")]
 [ApiController]

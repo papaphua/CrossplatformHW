@@ -1,6 +1,6 @@
-﻿using BlazorShop.Server.Data.Entities;
+﻿using CrossplatformHW.Server.Data.Entities;
 
-namespace BlazorShop.Server.Services.SecurityService;
+namespace CrossplatformHW.Server.Services.SecurityService;
 
 public interface ISecurityService
 {

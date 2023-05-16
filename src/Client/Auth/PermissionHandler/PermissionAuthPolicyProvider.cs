@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 
-namespace BlazorShop.Client.Auth.PermissionHandler;
+namespace CrossplatformHW.Client.Auth.PermissionHandler;
 
 public sealed class PermissionAuthPolicyProvider : DefaultAuthorizationPolicyProvider
 {

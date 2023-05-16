@@ -1,13 +1,13 @@
 ﻿using System.Net.Http.Json;
 using Blazored.LocalStorage;
-using BlazorShop.Client.Auth;
-using BlazorShop.Client.Auth.StateProvider;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Models;
+using CrossplatformHW.Client.Auth;
+using CrossplatformHW.Client.Auth.StateProvider;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 
-namespace BlazorShop.Client.Services.AuthService;
+namespace CrossplatformHW.Client.Services.AuthService;
 
 public sealed class AuthService : IAuthService
 {

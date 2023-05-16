@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using BlazorShop.Server.Primitives;
-using BlazorShop.Server.Services.UserService;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Pagination.Parameters;
+using CrossplatformHW.Server.Primitives;
+using CrossplatformHW.Server.Services.UserService;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Pagination.Parameters;
 
-namespace BlazorShop.Server.Facades.UserFacade;
+namespace CrossplatformHW.Server.Facades.UserFacade;
 
 public sealed class UserFacade : IUserFacade
 {

@@ -1,10 +1,10 @@
-﻿using BlazorShop.Client.Auth.PermissionHandler;
-using BlazorShop.Client.Services.HttpInterceptorService;
-using BlazorShop.Client.Services.UserService;
-using BlazorShop.Shared.Dtos;
+﻿using CrossplatformHW.Client.Auth.PermissionHandler;
+using CrossplatformHW.Client.Services.HttpInterceptorService;
+using CrossplatformHW.Client.Services.UserService;
+using CrossplatformHW.Shared.Dtos;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorShop.Client.Pages.Profile;
+namespace CrossplatformHW.Client.Pages.Profile;
 
 [HasPermission(Permissions.CustomerPermission)]
 public sealed partial class View : IDisposable

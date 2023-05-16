@@ -1,13 +1,13 @@
-﻿using BlazorShop.Server.Auth.PermissionHandler;
-using BlazorShop.Server.Common;
-using BlazorShop.Server.Common.Providers.TokenProvider;
-using BlazorShop.Server.Facades.AuthFacade;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Models;
+﻿using CrossplatformHW.Server.Auth.PermissionHandler;
+using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Common.Providers.TokenProvider;
+using CrossplatformHW.Server.Facades.AuthFacade;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorShop.Server.Controllers;
+namespace CrossplatformHW.Server.Controllers;
 
 [Route("api/authentication")]
 [ApiController]

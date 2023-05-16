@@ -1,10 +1,10 @@
-﻿using BlazorShop.Server.Common.Options;
-using BlazorShop.Server.Data;
-using BlazorShop.Server.Data.Entities;
+﻿using CrossplatformHW.Server.Common.Options;
+using CrossplatformHW.Server.Data;
+using CrossplatformHW.Server.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace BlazorShop.Server.Services.SessionService;
+namespace CrossplatformHW.Server.Services.SessionService;
 
 public sealed class SessionService : ISessionService
 {

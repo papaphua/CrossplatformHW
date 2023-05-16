@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
-using BlazorShop.Server.Data.Entities;
+using CrossplatformHW.Server.Data.Entities;
 
-namespace BlazorShop.Server.Common.Providers.TokenProvider;
+namespace CrossplatformHW.Server.Common.Providers.TokenProvider;
 
 public interface ITokenProvider
 {

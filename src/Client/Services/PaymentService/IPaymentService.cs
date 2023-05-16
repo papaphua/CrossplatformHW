@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Client.Services.PaymentService;
+﻿namespace CrossplatformHW.Client.Services.PaymentService;
 
 public interface IPaymentService
 {

@@ -1,8 +1,8 @@
-﻿using BlazorShop.Client.Models.Pagination;
-using BlazorShop.Shared.Pagination;
+﻿using CrossplatformHW.Client.Models.Pagination;
+using CrossplatformHW.Shared.Pagination;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorShop.Client.Shared.Components;
+namespace CrossplatformHW.Client.Shared.Components;
 
 public partial class CustomPagination
 {

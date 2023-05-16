@@ -1,10 +1,10 @@
 ﻿using System.Net.Http.Json;
 using Blazorise;
-using BlazorShop.Client.Services.AuthService;
-using BlazorShop.Shared.Dtos;
+using CrossplatformHW.Client.Services.AuthService;
+using CrossplatformHW.Shared.Dtos;
 using Toolbelt.Blazor;
 
-namespace BlazorShop.Client.Services.HttpInterceptorService;
+namespace CrossplatformHW.Client.Services.HttpInterceptorService;
 
 public sealed class HttpInterceptorService
 {

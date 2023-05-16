@@ -1,7 +1,7 @@
 ﻿using System.Net.Http.Json;
-using BlazorShop.Shared.Dtos;
+using CrossplatformHW.Shared.Dtos;
 
-namespace BlazorShop.Client.Services.CategoryService;
+namespace CrossplatformHW.Client.Services.CategoryService;
 
 public sealed class CategoryService : ICategoryService
 {

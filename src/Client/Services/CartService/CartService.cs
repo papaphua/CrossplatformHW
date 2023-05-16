@@ -1,9 +1,9 @@
 ﻿using Blazored.LocalStorage;
-using BlazorShop.Client.Pages;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Models;
+using CrossplatformHW.Client.Pages;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Models;
 
-namespace BlazorShop.Client.Services.CartService;
+namespace CrossplatformHW.Client.Services.CartService;
 
 public sealed class CartService : ICartService
 {

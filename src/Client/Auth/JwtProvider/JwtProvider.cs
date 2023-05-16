@@ -1,7 +1,7 @@
 ﻿using System.Security.Claims;
 using System.Text.Json;
 
-namespace BlazorShop.Client.Auth.JwtProvider;
+namespace CrossplatformHW.Client.Auth.JwtProvider;
 
 public class JwtProvider : IJwtProvider
 {

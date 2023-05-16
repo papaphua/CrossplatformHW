@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using BlazorShop.Shared.Dtos;
+using CrossplatformHW.Shared.Dtos;
 
-namespace BlazorShop.Shared.Models;
+namespace CrossplatformHW.Shared.Models;
 
 public class CartItem
 {

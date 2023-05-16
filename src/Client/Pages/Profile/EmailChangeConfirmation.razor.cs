@@ -1,11 +1,11 @@
 ﻿using Blazorise;
-using BlazorShop.Client.Services.HttpInterceptorService;
-using BlazorShop.Client.Services.ProfileService;
-using BlazorShop.Shared.Dtos;
+using CrossplatformHW.Client.Services.HttpInterceptorService;
+using CrossplatformHW.Client.Services.ProfileService;
+using CrossplatformHW.Shared.Dtos;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.WebUtilities;
 
-namespace BlazorShop.Client.Pages.Profile;
+namespace CrossplatformHW.Client.Pages.Profile;
 
 public sealed partial class EmailChangeConfirmation : IDisposable
 {

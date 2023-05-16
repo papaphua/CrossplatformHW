@@ -1,8 +1,8 @@
-﻿using BlazorShop.Server.Data;
-using BlazorShop.Server.Data.Entities;
+﻿using CrossplatformHW.Server.Data;
+using CrossplatformHW.Server.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorShop.Server.Services.CategoryService;
+namespace CrossplatformHW.Server.Services.CategoryService;
 
 public sealed class CategoryService : ICategoryService
 {

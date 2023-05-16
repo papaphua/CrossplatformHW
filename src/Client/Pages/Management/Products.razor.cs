@@ -1,14 +1,14 @@
 ﻿using Blazorise;
-using BlazorShop.Client.Auth.PermissionHandler;
-using BlazorShop.Client.Services.CategoryService;
-using BlazorShop.Client.Services.HttpInterceptorService;
-using BlazorShop.Client.Services.ProductService;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Pagination;
-using BlazorShop.Shared.Pagination.Parameters;
+using CrossplatformHW.Client.Auth.PermissionHandler;
+using CrossplatformHW.Client.Services.CategoryService;
+using CrossplatformHW.Client.Services.HttpInterceptorService;
+using CrossplatformHW.Client.Services.ProductService;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Pagination;
+using CrossplatformHW.Shared.Pagination.Parameters;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorShop.Client.Pages.Management;
+namespace CrossplatformHW.Client.Pages.Management;
 
 [HasPermission(Permissions.AdminPermission)]
 public sealed partial class Products : IDisposable

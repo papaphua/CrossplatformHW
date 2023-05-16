@@ -1,6 +1,6 @@
-﻿using BlazorShop.Server.Data.Entities;
+﻿using CrossplatformHW.Server.Data.Entities;
 
-namespace BlazorShop.Server.Services.CommentService;
+namespace CrossplatformHW.Server.Services.CommentService;
 
 public interface ICommentService
 {

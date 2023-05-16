@@ -1,4 +1,4 @@
-﻿namespace BlazorShop.Server.Common.Options;
+﻿namespace CrossplatformHW.Server.Common.Options;
 
 public sealed class UrlOptions
 {

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace BlazorShop.Server.Common.Options.Setups;
+namespace CrossplatformHW.Server.Common.Options.Setups;
 
 public sealed class BearerOptionsSetup : IPostConfigureOptions<JwtBearerOptions>
 {

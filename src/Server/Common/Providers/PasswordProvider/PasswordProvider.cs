@@ -1,8 +1,8 @@
 ﻿using System.Security.Cryptography;
-using BlazorShop.Server.Common.Options;
+using CrossplatformHW.Server.Common.Options;
 using Microsoft.Extensions.Options;
 
-namespace BlazorShop.Server.Common.Providers.PasswordProvider;
+namespace CrossplatformHW.Server.Common.Providers.PasswordProvider;
 
 public sealed class PasswordProvider : IPasswordProvider
 {

@@ -1,22 +1,22 @@
 ﻿using AutoMapper;
-using BlazorShop.Server.Common;
-using BlazorShop.Server.Common.Exceptions;
-using BlazorShop.Server.Common.Options;
-using BlazorShop.Server.Common.Providers.LinkProvider;
-using BlazorShop.Server.Common.Providers.PasswordProvider;
-using BlazorShop.Server.Common.Providers.TokenProvider;
-using BlazorShop.Server.Data;
-using BlazorShop.Server.Data.Entities;
-using BlazorShop.Server.Services.MailService;
-using BlazorShop.Server.Services.PaymentService;
-using BlazorShop.Server.Services.SecurityService;
-using BlazorShop.Server.Services.SessionService;
-using BlazorShop.Server.Services.UserService;
-using BlazorShop.Shared.Dtos;
-using BlazorShop.Shared.Models;
+using CrossplatformHW.Server.Common;
+using CrossplatformHW.Server.Common.Exceptions;
+using CrossplatformHW.Server.Common.Options;
+using CrossplatformHW.Server.Common.Providers.LinkProvider;
+using CrossplatformHW.Server.Common.Providers.PasswordProvider;
+using CrossplatformHW.Server.Common.Providers.TokenProvider;
+using CrossplatformHW.Server.Data;
+using CrossplatformHW.Server.Data.Entities;
+using CrossplatformHW.Server.Services.MailService;
+using CrossplatformHW.Server.Services.PaymentService;
+using CrossplatformHW.Server.Services.SecurityService;
+using CrossplatformHW.Server.Services.SessionService;
+using CrossplatformHW.Server.Services.UserService;
+using CrossplatformHW.Shared.Dtos;
+using CrossplatformHW.Shared.Models;
 using Microsoft.Extensions.Options;
 
-namespace BlazorShop.Server.Facades.ProfileFacade;
+namespace CrossplatformHW.Server.Facades.ProfileFacade;
 
 public sealed class ProfileFacade : IProfileFacade
 {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace BlazorShop.Shared.Dtos;
+namespace CrossplatformHW.Shared.Dtos;
 
 public sealed class UserDto
 {

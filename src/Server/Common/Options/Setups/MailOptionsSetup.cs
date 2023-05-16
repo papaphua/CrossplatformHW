@@ -1,7 +1,7 @@
 ﻿using DotNetEnv;
 using Microsoft.Extensions.Options;
 
-namespace BlazorShop.Server.Common.Options.Setups;
+namespace CrossplatformHW.Server.Common.Options.Setups;
 
 public sealed class MailOptionsSetup : IConfigureOptions<MailOptions>
 {
