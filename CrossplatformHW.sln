@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorShop.Server", "src\Server\BlazorShop.Server.csproj", "{55E6E3CE-D490-4C52-BDD1-8A5A6AEC0976}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossplatformHW.Server", "src\Server\CrossplatformHW.Server.csproj", "{55E6E3CE-D490-4C52-BDD1-8A5A6AEC0976}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorShop.Client", "src\Client\BlazorShop.Client.csproj", "{844D26A1-201A-4E9F-A741-1635327B5D84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossplatformHW.Client", "src\Client\CrossplatformHW.Client.csproj", "{844D26A1-201A-4E9F-A741-1635327B5D84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorShop.Shared", "src\Shared\BlazorShop.Shared.csproj", "{4EDD61A9-4EA5-41B6-AA16-03819952D751}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossplatformHW.Shared", "src\Shared\CrossplatformHW.Shared.csproj", "{4EDD61A9-4EA5-41B6-AA16-03819952D751}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
